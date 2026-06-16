@@ -8,7 +8,7 @@ AI-powered Cold Email Generator using LangChain and ChromaDB that intelligently 
 ---
 ## 📸 Interface Preview
 
-![Cold Email Generator Interface](Screenshots/1st.png)
+![Cold Email Generator Interface](https://raw.githubusercontent.com/Tayyabah-Rehman/Cold-Email-Generator/main/Screenshots/1st.PNG)
 
 *Screenshot of the Cold Email Generator showing job description input and generated email output.*
 
