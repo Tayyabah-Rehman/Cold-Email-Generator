@@ -38,25 +38,6 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Project Structure
-
-```
-cold_email_generator/
-├── run.py                ← ONE-CLICK LAUNCHER (python run.py)
-├── .env                  ← Your API keys (git-ignored)
-├── .env.example          ← Template
-├── requirements.txt
-├── README.md
-├── app/
-│   ├── main.py           ← Streamlit UI
-│   ├── chains.py         ← LangChain extraction + generation chains
-│   └── portfolio.py      ← ChromaDB manager + custom embedder
-└── data/
-    └── portfolio.csv     ← Your projects (14 pre-loaded)
-```
-
----
-
 ## 🔑 API Key Setup
 
 Get a **free** Groq API key at [console.groq.com](https://console.groq.com) — no credit card needed.
