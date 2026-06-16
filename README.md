@@ -38,30 +38,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🏗️ Pipeline Architecture
-
-```
-Job Description (raw text)
-        │
-        ▼
-┌─────────────────────┐   LangChain Chain 1 (Groq LLaMA)
-│   JD Extractor      │ ─────────────────────────────────► JSON: role, skills, company
-└─────────────────────┘
-        │ skills list
-        ▼
-┌─────────────────────┐
-│   ChromaDB          │ ── vector similarity ──────────► Top N portfolio projects
-│   (tech stack DB)   │
-└─────────────────────┘
-        │ job info + portfolio links
-        ▼
-┌─────────────────────┐   LangChain Chain 2 (Groq LLaMA)
-│   Email Writer      │ ─────────────────────────────────► Personalized cold email
-└─────────────────────┘
-```
-
----
-
 ## 📁 Project Structure
 
 ```
