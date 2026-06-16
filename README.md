@@ -1,6 +1,28 @@
 # ✉️ AI Cold Email Generator
 AI-powered Cold Email Generator using LangChain and ChromaDB that intelligently matches job descriptions with portfolio projects via vector search to create personalized, professional cold emails for job applications with a Streamlit interface.
 
+<!-- BADGES -->
+<div align="center">
+
+# ✉️ AI Cold Email Generator
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-0.1.0-green?logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-0.4.22-yellow?logo=chromadb&logoColor=white)](https://www.trychroma.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28.1-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3-purple?logo=groq&logoColor=white)](https://groq.com/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/Tayyabah-Rehman/Cold-Email-Generator?style=social)](https://github.com/Tayyabah-Rehman/Cold-Email-Generator/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Tayyabah-Rehman/Cold-Email-Generator?style=social)](https://github.com/Tayyabah-Rehman/Cold-Email-Generator/forks)
+[![GitHub issues](https://img.shields.io/github/issues/Tayyabah-Rehman/Cold-Email-Generator)](https://github.com/Tayyabah-Rehman/Cold-Email-Generator/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Tayyabah-Rehman/Cold-Email-Generator)](https://github.com/Tayyabah-Rehman/Cold-Email-Generator/commits)
+
+[![Code style: black](https://img.shields.io/badge/Code%20Style-Black-000000.svg)](https://github.com/psf/black)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/Tayyabah-Rehman)
+
+</div>
 
 > **LangChain · ChromaDB · Groq LLaMA · Streamlit**  
 > Paste a job description → get a personalized, portfolio-matched cold email in ~8 seconds.
