@@ -8,12 +8,10 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.1-red?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3-purple?logo=groq&logoColor=white)](https://groq.com/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/Tayyabah-Rehman/Cold-Email-Generator?style=social)](https://github.com/Tayyabah-Rehman/Cold-Email-Generator/stargazers)
-
 </div>
 
 AI-powered Cold Email Generator using LangChain and ChromaDB that intelligently matches job descriptions with portfolio projects via vector search to create personalized, professional cold emails for job applications with a Streamlit interface.
+
 
 > **LangChain · ChromaDB · Groq LLaMA · Streamlit**  
 > Paste a job description → get a personalized, portfolio-matched cold email in ~8 seconds.
