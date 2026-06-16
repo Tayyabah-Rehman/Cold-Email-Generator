@@ -6,22 +6,35 @@ AI-powered Cold Email Generator using LangChain and ChromaDB that intelligently 
 > Paste a job description → get a personalized, portfolio-matched cold email in ~8 seconds.
 
 ---
+## 📸 Interface Preview
+
+![Cold Email Generator Interface](Screenshots/1st.png)
+
+*Screenshot of the Cold Email Generator showing job description input and generated email output.*
+
+---
 
 ## 🚀 Quick Start (3 steps)
 
+### 1. Clone and Setup Environment
+
 ```bash
-# 1. Install dependencies
+# Clone the repository
+git clone https://github.com/Tayyabah-Rehman/Cold-Email-Generator.git
+cd Cold-Email-Generator
+
+# Create virtual environment with Python 3.10
+py -3.10 -m venv .venv
+
+# Activate the environment
+.venv\Scripts\activate     # Windows
+# source .venv/bin/activate  # Mac/Linux
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install dependencies
 pip install -r requirements.txt
-
-# 2. Add your Groq API key to .env  (free at console.groq.com)
-cp .env.example .env
-# edit .env and paste your key
-
-# 3. Launch
-python run.py
-```
-
-That's it. Opens at http://localhost:8501 automatically.
 
 ---
 
@@ -136,6 +149,14 @@ The `Tech Stack` column drives ChromaDB matching — the more specific, the bett
 - **Custom portfolio**: upload your own CSV via the sidebar file uploader
 - **Download**: save generated emails as `.txt` with one click
 
+---
+
+## 📚 How to Test
+- Load Portfolio: Click "Load Portfolio from CSV" button
+- Paste Job Description: Copy any job description from LinkedIn or job portal
+- Generate Email: Click "Generate Cold Email"
+- Review: The AI will create a personalized email based on matching projects
+  
 ---
 
 ## 👤 Author
